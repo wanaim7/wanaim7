@@ -1,0 +1,328 @@
+body{
+    background-color: rgb(12, 13, 22);
+    border: 0px;
+    margin: 0px;
+}
+nav{
+    color: aliceblue;
+    font-style: normal;
+    background-color: rgb(31, 46, 61);
+    padding: 5px;
+    margin-top: 0px;
+    margin: 0px;
+   
+    
+
+    
+
+}
+h1{
+
+    padding-left: 10px;
+    float: left;
+    color: rgb(221, 172, 244);
+    padding-top: 0px;
+
+    
+
+}
+.t1 {
+    color: rgb(250, 250, 244);
+}
+.t2 {
+    color: rgb(247, 214, 170);
+    padding-left: 0px;
+}
+.img {
+    width: 40px;
+    margin-left: 0px;
+    padding: 0px;
+    padding-top: 10px;
+
+    
+}
+.wwx {
+    background-color: rgb(70, 80, 90);
+    margin-top: 44px;
+    margin-left: 12px;
+    height: 200px;
+    
+}
+.wwximg{
+    width: 200px;
+}
+.wwxp{
+   
+    background-color: rgb(70, 80, 90);
+    position: absolute;
+    right: 46%;
+    
+   
+    top: 14%;
+    padding-left: 7px;
+    padding-top: 0px;
+    
+}
+.wwx2 {
+    background-color: rgb(70, 80, 90);
+    margin-top: 44px;
+    margin-left: 12px;
+    height: 200px;
+    
+    
+}
+.wwx2img{
+    width: 200px;
+}
+.wwx2p{
+   
+    background-color: rgb(70, 80, 90);
+    position: absolute;
+    right: 46%;
+    
+   
+    top: 46%;
+    padding-left: 7px;
+    padding-top: 0px;
+    
+}
+.wwx3 {
+    background-color: rgb(70, 80, 90);
+    margin-top: 44px;
+    margin-left: 12px;
+    height: 200px;
+   
+    
+}
+.wwx3img{
+    width: 200px;
+}
+.wwx3p{
+   
+    background-color: rgb(70, 80, 90);
+    position: absolute;
+    right: 46%;
+    
+   
+    top: 80%;
+    padding-left: 7px;
+    padding-top: 0px;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    
+}
+.droptn {
+    background-color:rgb(31, 46, 61);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.lines {
+    display: block;
+
+}
+.line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 4px auto;
+    transition: all 0.3s  ease;
+
+
+}
+.droptn:hover .line {
+    background-color: #fbf8fd;
+}
+.dropdownc {
+    display: none;
+    position: absolute;
+    background-color: rgb(31, 46, 61);
+    min-width: 160px;
+    padding: 15px ;
+    padding-left: 4px;
+    padding-right: 4px;
+    z-index: 1;  
+    margin-inline: 0px;
+}
+.dropdownc a {
+    color: rgb(224, 223, 232);
+    padding: 12px 16px;
+    text-decoration: darkgrey;
+    display: block;
+
+}
+.dropdownc a:hover  {
+    background-color: #3b2e16;
+
+}
+.dropdown:hover .dropdownc {
+    display: block;
+
+}
+.dropdown:hover .droptn {
+    background-color: #605a48;
+}
+.dropdown{
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    transform: translateY(-10%);
+    text-align: right;
+   
+
+}
+.dropdownc{
+    right: 0;
+    left: auto;
+}
+.centera{
+    color: #f6cee8;
+    text-decoration: solid;
+    position: absolute;
+    left: 44%;
+    top: 17%;
+    font-size: 65px;
+    
+    
+    
+}
+.centerb{
+    color: #fdfafc;
+    padding: 4px;
+    position: absolute;
+    margin: 20px;
+    top: 35%;
+    font-size: 16px;
+
+}
+.centerc{
+    background-color: #17172e;
+    color: #fbf8fd;
+    position: absolute;                      
+    top: 45%;
+    left: 7%;
+    right: 10%;
+    font-size: 20px;
+    line-height: 80px;
+    
+    
+  
+
+
+   
+}
+.centerca{
+    background-color: rgb(10, 8, 40);
+    
+}
+.centercb{
+    background-color: rgb(13, 32, 48);
+}
+.centercc{
+    background-color: rgb(46, 58, 75);
+}
+.centercd{
+    background-color: rgb(55, 56, 78);
+    padding: 20px;
+}
+.centerce{
+    background-color: rgb(81, 82, 101);
+    padding: 20px;
+}
+.hello{
+    font-size: 30px;
+    position: absolute;
+    left: 45%;
+    top: 15%;
+    
+}
+.g{
+    color: rgb(78, 78, 222);
+}
+.o{
+    color: red;
+}
+.oo{
+    color: yellow;
+}
+.gg{
+    color: rgb(75, 226, 75);
+}
+.l{
+    color: yellow;
+}
+.e{
+    color: red;
+}
+.helloa{
+    color: white;
+    margin-left: 20px;
+
+}
+.contact-container {
+    Width: 100%;
+    Max-width: 600px;
+    Margin: 50px auto;
+    Padding: 20px;
+    Background-color: #fff;
+    Border-radius: 8px;
+    Box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+H1 {
+    Text-align: center;
+    Color: #333;
+}
+
+Form {
+    Display: flex;
+    Flex-direction: column;
+    Gap: 15px;
+}
+
+Label {
+    Font-weight: bold;
+    Color: #555;
+}
+
+Input, textarea {
+    Width: 100%;
+    Padding: 10px;
+    Border: 1px solid #ccc;
+    Border-radius: 4px;
+    Font-size: 16px;
+}
+
+Button {
+    Background-color: #007BFF;
+    Color: white;
+    Border: none;
+    Padding: 10px 15px;
+    Font-size: 16px;
+    Border-radius: 4px;
+    Cursor: pointer;
+    Transition: background-color 0.3s;
+}
+
+Button:hover {
+    Background-color: #0056b3;
+}
+
+
+
+
+
+
+
